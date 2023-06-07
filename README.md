@@ -57,7 +57,7 @@ This folder contains all the project information. It consists of all the code an
 - [ ] Researchpaper on agile
 
 ## Learning Outcome 4: CI/CD(#learning-outcome-4-cicd)
-*You **design and implement** a (semi)automated software release process that matches the needs of the project context.*
+*You **implement** a (semi)automated software release process that matches the needs of the project context.*
 - [ ] ReseaRch CI (https://fhict.instructure.com/courses/12992/pages/continuous-integration?module_item_id=911586)
 - [ ] Research CD
 - [ ] Setting up CI
@@ -98,14 +98,14 @@ This folder contains all the project information. It consists of all the code an
 
 | # | Name | Short description | Clarification |
 |---|------|-------------------|---------------|
-| 1 | Web application | You design and build **user-friendly, full-stack** web applications. | **User friendly:** You apply basic User experience testing and development techniques.<br>**Full-stack:** You design and build a full stack application using commonly accepted front end (JavaScript-based framework) and back end techniques (e.g. Object Relational Mapping) choosing and implementing relevant communication protocols and addressing asynchronous communication issues. |
+| 1 | Web application | You design and build **user-friendly, full-stack** web applications. | **User friendly:** You apply basic User experience testing and development techniques.<br>**Full-stack:** You design and build a full stack application using commonly accepted front end (Javascript-based framework) and back end techniques (e.g. Object Relational Mapping) choosing and implementing relevant communication protocols and addressing asynchronous communication issues. |
 | 2 | Software quality | You use software **tooling and methodology** that continuously monitors and improve the software quality during software development. | **Tooling and methodology:** Carry out, monitor and report on unit integration, regression and system tests, with attention for security and performance aspects, as well as applying static code analysis and code reviews. |
-| 3 | Agile method | You **choose** and implement the most suitable agile software development method for your software project. | **Choose:** You are aware of the most popular agile methods and their underlying agile principles. Your choice of a method is motivated and based on well-defined selection criteria and context analyses. |
+| 3 | Agile method | You **choose** and implement the most suitable agile software development method for your software project. | **Agile method:** You are aware of the most popular agile methods and their underlying agile principles. You are able to implement the process of your software project according to a chosen methodology. |
 | 4 | CI/CD | You **implement** a (semi)automated software release process that matches the needs of the project context. | **Implement:** You implement a continuous integration and deployment solution (using e.g. Gitlab CI and Docker). |
-| 5 | Cultural differences and ethics | You **recognize** and **take into account** cultural differences between project stakeholders and ethical aspects in software development. | **Recognize**:  Recognition is based on theoretically substantiated awareness of cultural differences and ethical aspects in software engineering.<br>**Take into account:** Adapt your communication, working, and behavior styles to reflect project stakeholders from different cultures;<br>Address one of the standard Programming Ethical Guidelines (e.g., ACM Code of Ethics and Professional Conduct) in your work. |
+| 5 | Cultural differences and ethics | You **recognize** and **take into account** cultural differences between project stakeholders and ethical aspects in software development. | **Recognize**:  Recognition is based on theoretically substantiated awareness of cultural differences and ethical aspects in software engineering.<br>**Take into account:** Adapt your communication, working, and behavior styles to work with other developers from different cultures;<br>Address one of the standard Programming Ethical Guidelines (e.g., ACM Code of Ethics and Professional Conduct) in your work. |
 | 6 | Requirements and Design | You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using **multiple types of test techniques**. | **Multiple types of test techniques:** You apply user acceptance testing and stakeholder feedback to validate the quality of the requirements. You evaluate the quality of the design (e.g., by testing or prototyping) taking into account the formulated quality properties like security and performance. |
-| 7 | Business processes | You analyze and describe **simple** business processes that are **related** to your project. | **Simple:** Involving stakeholders, predominantly sequential processes with one or two alternative paths.<br>**Related:** Business processes during which the software that you are developing will be used (business processes that the software must support by fully or partially automating them).<br>**or**<br>Business processes needed for the success of your software development project (e.g., product release, market release, financial assurance). |
-| 8 | Professional | You act in a **professional manner** during software development and learning. | **Professional manner:** You develop software as a team effort according to a prescribed software methodology and following team agreements. You are able to track your work progress and communicate your progress with the team.<br>You actively ask and apply feedback from stakeholders and advise them on the most optimal technical and design (architectural) solutions. You choose and substantiate solutions for a given problem. |
+| 7 | Business processes | You analyze and describe **simple** business processes that are **related** to your project. | **Simple:** predominantly sequential processes with one or two alternative paths.<br>**Related:** understanding the relationships between the process and software. |
+| 8 | Professional | You act in a **professional manner** during software development and learning. | **Professional manner:** You develop software as a team effort according to a prescribed software methodology and following team agreements. You are able to track your work progress and communicate your progress with the team.<br>understanding the relationships between the process and software. |
 
 ## 1 Web application
 
@@ -113,9 +113,9 @@ You design and build user-friendly, full-stack web applications.
 
 Clarification:
 
-User friendly: You apply best practices when creating user interfaces and basic user experience testing and development techniques.
+User friendly: You apply basic User experience testing and development techniques.
 
-Full-stack: You design and build a full stack application using a commonly accepted front end Javascript framework and back end application implementing relevant communication protocols, persistence of data by usage of ORM and addressing asynchronous communication issues.
+Full-stack: You design and build a full stack application using commonly accepted front end (Javascript-based framework) and back end techniques (e.g. Object Relational Mapping) choosing and implementing relevant communication protocols and addressing asynchronous communication issues.
 
 
 ### how I plan to show this learning outcome in my project: 
@@ -125,7 +125,7 @@ Full-stack: You design and build a full stack application using a commonly accep
 
 ## 2 Software quality
 
-You use software tooling and methodology that continuously monitors and improve the software quality during software development.
+You use software tooling and methodology that continuously monitors and improve the software quality during software development. 
 
 Clarification:
 
@@ -135,11 +135,11 @@ Tooling and methodology: Carry out, monitor and report on unit integration, regr
 
 ## 3 Agile method
 
-You choose and implement the most suitable agile software development method for your software project.
+You can implement the software process for your project according to a given agile software development method.
 
 Clarification:
 
-Choose: You are aware of the most popular agile methods and their underlying agile principles. Your choice of a method is motivated and based on well-defined selection criteria and context analyses.
+Agile method: You are aware of most popular agile methods and their underlying agile principles. You are able to implement the process of your software project according to a chosen methodology.
 
 ### how I plan to show this learning outcome in my project: 
 
@@ -147,23 +147,23 @@ Choose: You are aware of the most popular agile methods and their underlying agi
 
 ## 4 CI/CD
 
-You design and implement a (semi)automated software release process that matches the needs of the project context.
+You implement a (semi)automated software release process that matches the needs of the project context.
 
 Clarification:
 
-Design and implement: You design a release process and implement a continuous integration and deployment solution (using e.g. Gitlab CI and Docker).
+Implement: You implement a continuous integration and delivery solution (using e.g. Gitlab CI and Docker).
 
 ### how I plan to show this learning outcome in my project: 
 
 ## 5 Cultural differences and ethics
 
-You recognize and take into account cultural differences between project stakeholders and ethical aspects in software development.
+You recognize and take into account cultural differences when working with multi-site teams, and are aware of ethical aspects in software development.
 
 Clarifications:
 
 Recognize: Recognition is based on theoretically substantiated awareness of cultural differences and ethical aspects in software engineering.
 
-Take into account: Adapt your communication, working, and behavior styles to reflect project stakeholders from different cultures;
+Take into account: Adapt your communication, working, and behavior styles to work with other developers from different cultures; 
 
 Address one of the standard Programming Ethical Guidelines (e.g., ACM Code of Ethics and Professional Conduct) in your work.  
 
@@ -185,7 +185,7 @@ Irrelevant
 
 ## 6 Requirements and Design
 
-You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using multiple types of test techniques.
+You translate (non-functional) requirements to extend existing (architectural) designs and can validate them using multiple types of test techniques.
 
 Clarifications:
 
@@ -195,14 +195,13 @@ Multiple types of test techniques: You apply user acceptance testing and stakeho
 
 ## 7 Bussiness Process
 
-You analyze and describe simple business processes that are related to your project.
+You can explain simple business processes and relate them to the development of your software project.
 
 Clarifications:
 
-Simple: Involving stakeholders, predominantly sequential processes with one or two alternative paths.
-Related: Business processes during which the software that you are developing will be used (business processes that the software must support by fully or partially automating them).
-or
-Business processes needed for the success of your software development project (e.g., product release, market release, financial assurance).
+Simple: predominantly sequential processes with one or two alternative paths
+
+Relate: understanding the relationships between the process and software.
 
 ### how I plan to show this learning outcome in my project: 
 
@@ -232,7 +231,6 @@ Professional manner:
 
 You develop software as a team effort according to a prescribed software methodology and following team agreements. You are able to track your work progress and communicate your progress with the team.
 
-You actively ask and apply feedback from stakeholders and advise them on the most optimal technical and design (architectural) solutions.
-You choose and substantiate solutions for a given problem.
+You  independently recognize and decide where your knowledge falls short to solve a software problem and  communicate which new knowledge and skills you need to learn.
 
 ### how I plan to show this learning outcome in my project: 

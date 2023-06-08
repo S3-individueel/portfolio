@@ -54,19 +54,15 @@ This folder contains all the project information. It consists of all the code an
 - [ ] Research Scrum
 - [ ] Research waterfall
 - [ ] Research Kanban
-- [ ] Researchpaper on agile
 
 ## Learning Outcome 4: CI/CD(#learning-outcome-4-cicd)
 *You **implement** a (semi)automated software release process that matches the needs of the project context.*
-- [ ] ReseaRch CI (https://fhict.instructure.com/courses/12992/pages/continuous-integration?module_item_id=911586)
-- [ ] Research CD
 - [ ] Setting up CI
 - [ ] setting up CD
 - [ ] CI/CD (GP) (partial)
 
 ## Learning Outcome 5: Cultural Differences and Ethics(#learning-outcome-5-cultural-differences-and-ethics)
 *You **recognize** and **take into account** cultural differences when working with multi-site teams and are aware of ethical aspects in software development.*
-- [ ] Research paper 
 - [ ] group management
 - [ ] software ethics 
 
@@ -120,7 +116,7 @@ Full-stack: You design and build a full stack application using commonly accepte
 
 ### how I plan to show this learning outcome in my project: 
 
-
+For this project I'll be making a full stack application with a React frontend using TypeScript for some extra software quality. The web API will be build with ASP.NET Web API core. The API is connected with an Azure hosted SQL database through Entity Framework core.
 
 
 ## 2 Software quality

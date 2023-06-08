@@ -156,6 +156,10 @@ Implement: You implement a continuous integration and delivery solution (using e
 
 The backend api gets build and deployed to an Azure Web Service whenever a commit is pushed to the GitHub main branch.
 
+![cicdbackend](https://github.com/S3-individueel/portfolio/blob/64f0d1718555b9eb406e444deba2c665f4eb73a8/Screenshots/cicdbackend.png)
+
+Only error is that the action fails to logout again, but it should be of no issue.
+
 ## 5 Cultural differences and ethics
 
 You recognize and take into account cultural differences when working with multi-site teams, and are aware of ethical aspects in software development.

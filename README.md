@@ -116,7 +116,12 @@ Full-stack: You design and build a full stack application using commonly accepte
 
 ### how I plan to show this learning outcome in my project: 
 
-For this project I'll be making a full stack application with a React frontend using TypeScript for some extra software quality. The web API will be build with ASP.NET Web API core. The API is connected with an Azure hosted SQL database through Entity Framework core.
+For this project I'll be making a full stack application with a React frontend using TypeScript for some extra software quality. I choose React because it is generally the most used javascript-framework for frontend development. Also I have some previous experience with VueJS and wanted to expand my knownledge by trying something slightly different.
+The web API will be build with ASP.NET Web API core, which we also use in the group-project and is thusly easier to learn over the course of the semester. The API is connected with an Azure hosted SQL database through Entity Framework core because it integrates nicely with ASP.NET.
+
+![Web 1920 – 1](https://github.com/S3-individueel/portfolio/blob/6c1b6db0099de45c70e3eef3e2c9bd64b38f2f38/Designs/Web%201920%20%E2%80%93%201.png)
+![Web 1920 – 2](https://github.com/S3-individueel/portfolio/blob/6c1b6db0099de45c70e3eef3e2c9bd64b38f2f38/Designs/Web%201920%20%E2%80%93%202.png)
+![Web 1920 – 3](https://github.com/S3-individueel/portfolio/blob/6c1b6db0099de45c70e3eef3e2c9bd64b38f2f38/Designs/Web%201920%20%E2%80%93%203.png)
 
 
 ## 2 Software quality

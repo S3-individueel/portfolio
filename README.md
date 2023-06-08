@@ -123,10 +123,6 @@ The web API will be build with ASP.NET Web API core, which we also use in the gr
 ![Web 1920 – 2](https://github.com/S3-individueel/portfolio/blob/6c1b6db0099de45c70e3eef3e2c9bd64b38f2f38/Designs/Web%201920%20%E2%80%93%202.png)
 ![Web 1920 – 3](https://github.com/S3-individueel/portfolio/blob/6c1b6db0099de45c70e3eef3e2c9bd64b38f2f38/Designs/Web%201920%20%E2%80%93%203.png)
 
-![Web 1920 – 1](https://github.com/S3-individueel/portfolio/blob/6c1b6db0099de45c70e3eef3e2c9bd64b38f2f38/Designs/Web%201920%20%E2%80%93%201.png)
-![Web 1920 – 2](https://github.com/S3-individueel/portfolio/blob/6c1b6db0099de45c70e3eef3e2c9bd64b38f2f38/Designs/Web%201920%20%E2%80%93%202.png)
-![Web 1920 – 3](https://github.com/S3-individueel/portfolio/blob/6c1b6db0099de45c70e3eef3e2c9bd64b38f2f38/Designs/Web%201920%20%E2%80%93%203.png)
-
 ## 2 Software quality
 
 You use software tooling and methodology that continuously monitors and improve the software quality during software development. 

@@ -118,6 +118,9 @@ Full-stack: You design and build a full stack application using commonly accepte
 
 For this project I'll be making a full stack application with a React frontend using TypeScript for some extra software quality. The web API will be build with ASP.NET Web API core. The API is connected with an Azure hosted SQL database through Entity Framework core.
 
+![Web 1920 – 1](https://github.com/S3-individueel/portfolio/blob/6c1b6db0099de45c70e3eef3e2c9bd64b38f2f38/Designs/Web%201920%20%E2%80%93%201.png)
+![Web 1920 – 2](https://github.com/S3-individueel/portfolio/blob/6c1b6db0099de45c70e3eef3e2c9bd64b38f2f38/Designs/Web%201920%20%E2%80%93%202.png)
+![Web 1920 – 3](https://github.com/S3-individueel/portfolio/blob/6c1b6db0099de45c70e3eef3e2c9bd64b38f2f38/Designs/Web%201920%20%E2%80%93%203.png)
 
 ## 2 Software quality
 
@@ -150,6 +153,8 @@ Clarification:
 Implement: You implement a continuous integration and delivery solution (using e.g. Gitlab CI and Docker).
 
 ### how I plan to show this learning outcome in my project: 
+
+The backend api gets build and deployed to an Azure Web Service whenever a commit is pushed to the GitHub main branch.
 
 ## 5 Cultural differences and ethics
 

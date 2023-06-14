@@ -212,8 +212,6 @@ After more fiddling with the frontend testing, I have got the test to work and i
 #### After deployment:
 https://happy-flower-043bad603.3.azurestaticapps.net/
 
-#### After deployment:
-https://happy-flower-043bad603.3.azurestaticapps.net/
 
 ## 5 Cultural differences and ethics
 

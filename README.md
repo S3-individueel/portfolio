@@ -116,9 +116,11 @@ Full-stack: You design and build a full stack application using commonly accepte
 
 ### how I plan to show this learning outcome in my project: 
 
-For this project I'll be making a full stack application with a React frontend using TypeScript for some extra software quality. I choose React because it is generally the most used javascript-framework for frontend development. Also I have some previous experience with VueJS and wanted to expand my knownledge by trying something slightly different.
+For this project I'll be making a full stack application with a React frontend for some extra software quality. I choose React because it is generally the most used javascript-framework for frontend development, so I found it useful to learn. Also I have some previous experience with VueJS and wanted to expand my knownledge by trying something slightly different.
+I opted to write React in TypeScript for extra software quality thanks to it's typed nature. This prevents unexpected errors and catches them before even building the project. I have virtually no experience with TypeScript.
 
-The web API will be build with ASP.NET Web API core, which we also use in the group-project and is thusly easier to learn over the course of the semester. The API is connected with an Azure hosted SQL database through Entity Framework core because it integrates nicely with ASP.NET.
+The web API will be build with ASP.NET Web API core, which we also use in the group-project and is thus easier to learn over the course of the semester. The API is connected with an Azure hosted SQL database through Entity Framework core (code-first) because it integrates nicely with ASP.NET.
+When using Entity Framework I've learned it can be fiddly with changes made to the models. New migrations might not be able to update the database properly and require a full database and migration sweep.
 
 To get a sense of what I have to built I made a few designs. The style is inspired by Reddit, since it's the inspiration structure of the project.
 
@@ -130,9 +132,6 @@ To get a sense of what I have to built I made a few designs. The style is inspir
 
 **Solution page with all comments**
 ![Web 1920 – 3](designs/design-solutionpage.png)
-
-#### UX Tests:
-
 
 
 ## 2 Software quality
@@ -195,16 +194,16 @@ Implement: You implement a continuous integration and delivery solution (using e
 The backend api is made with Docker gets build and deployed to an Azure Container App whenever a commit is pushed to the GitHub main branch. I would protect the main branch from direct pushes, but that requires upgrading the organization the repository is in.
 Github Actions says the action failed, since it throws an error when it tries to logout, but that doesn't impact the deployment itself.
 
-![cicdbackend-notest](screenshots/cicdbackend.png)
+![cicdbackend](screenshots/cicdbackend.png)
 
 
 The frontend also gets built and deployed whenever a commit is pushed to the Github main branch. The frontend is hosted as an Azure Static Web App.
 
-![cicdbackend-notest](screenshots/cicdfrontendnotest.png)
+![cicdfrontend-notest](screenshots/cicdfrontend-notest.png)
 
 I've also tried adding a frontend test to the pipeline, but I get errors because I can't get Jest to work with TypeScript. I've tried to resolve this by letting babel preprocess the .tsx files before the test runs and tried to swap Jest for ts-jest. But I couldn't get any to work.
 
-![cicdbackend-test](screenshots/cicdfrontendtest.png)
+![cicdfrontend-test](screenshots/cicdfrontend-test.png)
 
 Only error is that the action fails to logout again, but it should be of no issue.
 
@@ -245,6 +244,15 @@ Clarifications:
 Multiple types of test techniques: You apply user acceptance testing and stakeholder feedback to validate the quality of the requirements. You evaluate the quality of the design (e.g., by testing or prototyping) taking into account the formulated quality properties like security and performance.
 
 ### how I plan to show this learning outcome in my project: 
+
+### Conceptual model
+![conceptual-model](designs/conceptual-model.jpg)
+
+### Database design
+
+Even though I use Entity Framework (code-first) in this project, I still decided to create a database design. This helped me reverse-engineer how the code should look like to help me visualize.
+
+![conceptual-model](designs/database-ontwerp.jpg)
 
 ## 7 Bussiness Process
 

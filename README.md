@@ -199,11 +199,11 @@ Github Actions says the action failed, since it throws an error when it tries to
 
 The frontend also gets built and deployed whenever a commit is pushed to the Github main branch. The frontend is hosted as an Azure Static Web App.
 
-![cicdfrontend-notest](screenshots/cicdfrontend-notest.png)
+![cicdfrontend-notest](screenshots/cicdfrontendNotest.png)
 
 I've also tried adding a frontend test to the pipeline, but I get errors because I can't get Jest to work with TypeScript. I've tried to resolve this by letting babel preprocess the .tsx files before the test runs and tried to swap Jest for ts-jest. But I couldn't get any to work.
 
-![cicdfrontend-test](screenshots/cicdfrontend-test.png)
+![cicdfrontend-test](screenshots/cicdfrontendTest.png)
 
 Only error is that the action fails to logout again, but it should be of no issue.
 

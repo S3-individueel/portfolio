@@ -194,16 +194,16 @@ Implement: You implement a continuous integration and delivery solution (using e
 The backend api is made with Docker gets build and deployed to an Azure Container App whenever a commit is pushed to the GitHub main branch. I would protect the main branch from direct pushes, but that requires upgrading the organization the repository is in.
 Github Actions says the action failed, since it throws an error when it tries to logout, but that doesn't impact the deployment itself.
 
-![cicdbackend](screenshots/cicdbackend.png)
+![cicdbackend](Screenshots/cicdbackend.png)
 
 
 The frontend also gets built and deployed whenever a commit is pushed to the Github main branch. The frontend is hosted as an Azure Static Web App.
 
-![cicdfrontend-notest](screenshots/cicdfrontendNotest.png)
+![cicdfrontend-notest](Screenshots/cicdfrontendNotest.png)
 
 I've also tried adding a frontend test to the pipeline, but I get errors because I can't get Jest to work with TypeScript. I've tried to resolve this by letting babel preprocess the .tsx files before the test runs and tried to swap Jest for ts-jest. But I couldn't get any to work.
 
-![cicdfrontend-test](screenshots/cicdfrontendTest.png)
+![cicdfrontend-test](Screenshots/cicdfrontendTest.png)
 
 Only error is that the action fails to logout again, but it should be of no issue.
 

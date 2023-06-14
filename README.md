@@ -120,14 +120,20 @@ For this project I'll be making a full stack application with a React frontend u
 
 The web API will be build with ASP.NET Web API core, which we also use in the group-project and is thusly easier to learn over the course of the semester. The API is connected with an Azure hosted SQL database through Entity Framework core because it integrates nicely with ASP.NET.
 
+To get a sense of what I have to built I made a few designs. The style is inspired by Reddit, since it's the inspiration structure of the project.
+
 **Homepage with all posted problems**
-![Web 1920 – 1](https://github.com/S3-individueel/portfolio/blob/6c1b6db0099de45c70e3eef3e2c9bd64b38f2f38/Designs/Web%201920%20%E2%80%93%201.png)
+![Web 1920 – 1](designs/design-homepage.png)
 
 **Problem page with all posted solutions**
-![Web 1920 – 2](https://github.com/S3-individueel/portfolio/blob/6c1b6db0099de45c70e3eef3e2c9bd64b38f2f38/Designs/Web%201920%20%E2%80%93%202.png)
+![Web 1920 – 2](designs/design-discussionpage.png)
 
 **Solution page with all comments**
-![Web 1920 – 3](https://github.com/S3-individueel/portfolio/blob/6c1b6db0099de45c70e3eef3e2c9bd64b38f2f38/Designs/Web%201920%20%E2%80%93%203.png)
+![Web 1920 – 3](designs/design-solutionpage.png)
+
+#### UX Tests:
+
+
 
 ## 2 Software quality
 
@@ -138,6 +144,31 @@ Clarification:
 Tooling and methodology: Carry out, monitor and report on unit integration, regression and system tests, with attention for security and performance aspects, as well as applying static code analysis and code reviews.
 
 ### how I plan to show this learning outcome in my project: 
+
+There are multiple ways to test an application. For my project I intent to use User Experience testing (UX), Unit testing (backend) and Integration testing (frontend).
+
+### UX tests
+**Objective:** Making sure users understand the intended use and effortlessly navigate the application.
+
+Xamara (My girlfriend): She found the design very simplistic and lacking context, but when I told her the concept and explained it a bit she began to understand the UI more. She said the structure makes sense and also figured I used Reddit as an inspiration, especially for the comments. She suggested showing more information in all cards to provide more context for the user.
+
+
+### Unit tests
+**Objective:** Making sure that users can vote and reply on replies.
+RepliesController 
+- Verify that a user can upvote a reply.
+- Verify that a user can remove a vote on a reply.
+- Verify that a user can reply on another reply recursively.
+
+
+### Intgration tests
+**Objective:** Making sure that the frontend and backend API communicate as expected.
+Homepage
+- Verify that discussions load.
+
+Discussion page
+- Verify that all solutions load.
+- Verify that users can vote on a solution only during a referendum.
 
 ## 3 Agile method
 
@@ -161,9 +192,19 @@ Implement: You implement a continuous integration and delivery solution (using e
 
 ### how I plan to show this learning outcome in my project: 
 
-The backend api gets build and deployed to an Azure Web Service whenever a commit is pushed to the GitHub main branch.
+The backend api is made with Docker gets build and deployed to an Azure Container App whenever a commit is pushed to the GitHub main branch. I would protect the main branch from direct pushes, but that requires upgrading the organization the repository is in.
+Github Actions says the action failed, since it throws an error when it tries to logout, but that doesn't impact the deployment itself.
 
-![cicdbackend](https://github.com/S3-individueel/portfolio/blob/64f0d1718555b9eb406e444deba2c665f4eb73a8/Screenshots/cicdbackend.png)
+![cicdbackend-notest](screenshots/cicdbackend.png)
+
+
+The frontend also gets built and deployed whenever a commit is pushed to the Github main branch. The frontend is hosted as an Azure Static Web App.
+
+![cicdbackend-notest](screenshots/cicdfrontendnotest.png)
+
+I've also tried adding a frontend test to the pipeline, but I get errors because I can't get Jest to work with TypeScript. I've tried to resolve this by letting babel preprocess the .tsx files before the test runs and tried to swap Jest for ts-jest. But I couldn't get any to work.
+
+![cicdbackend-test](screenshots/cicdfrontendtest.png)
 
 Only error is that the action fails to logout again, but it should be of no issue.
 

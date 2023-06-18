@@ -205,10 +205,13 @@ I've also tried adding a frontend test to the pipeline, but I get errors because
 
 ![cicdfrontend-test](Screenshots/cicdfrontendTest.png)
 
-Only error is that the action fails to logout again, but it should be of no issue.
+After more fiddling with the frontend testing, I have got the test to work and included it into the Github Action.
+
+![cicdfrontend-test-success](Screenshots/cicdfrontendTestSuccess.png)
 
 #### After deployment:
 https://happy-flower-043bad603.3.azurestaticapps.net/
+
 
 ## 5 Cultural differences and ethics
 

@@ -228,15 +228,26 @@ Address one of the standard Programming Ethical Guidelines (e.g., ACM Code of Et
 
 ## What is culture?
 
+Culture is the ideas, beliefs, values, norms, practices and symbols a society upholds. These factors are reflections of their economic and social structures.
+Usually a society has one dominant culture, but can have many sub-cultures. Especially in today's day and age has culture become more fluid. Globalization, thanks to high-speed transport and the internet, has led many cultural aspects to mix. Yet cultures are still very disctinct, since cultural changes are slow to manifest. This is because cultures are defined by their material and historical conditions, which are hard to change.
 
 ## what is my culture?
 
+I find defining my own culture to be very hard, since I disagree with a lot within my own society. This has led me to not identify with the place where I was born nor live. I think it's way more important to critically reflect on the culture you've been brought up with and adapt better ideas, beliefs and values.
+
+That being said, I've been brought up Limburgisch and some say we're comparatively quite hospitable. That means we welcome new people with open arms and treat our guests as good as possible.
+
+Another trait which applies to me is Dutch directness. Obviously there are boundaries, but I'm more inclined to say something weird, unexpected or even a little bit taboo.
+
+One cultural trait we (and I) have as Dutch people is that we need to plan everything. Spontanious visits are foreign to us, even by friends or family. Personally I'd like to see this changed in my life, but late stage capitalism makes this increasingly hard.
 
 
 ## What did you do to improve the group communications with respect to cultural differences?
 
+In our group project, we've had a few different cultures mixed. We've had to work with students from Finland, who tend to be quite shy at first. Our Dutch directness definitely helped in breaking the ice, even though it was weird for the Finns. This doesn't mean that the Finnish students all suddenly became as direct as us. This made it hard to sometimes know what they actually thought of some descisions and situations.
 
-Irrelevant
+When we were working on the project I've noticed we as Dutch people can be quite loud sometimes. This could be distracting, ironically mostly to ourselves. To counter this we tried to remind eachother when we were talking too much.
+
 
 ## 6 Requirements and Design
 
@@ -273,11 +284,19 @@ Relate: understanding the relationships between the process and software.
 
 ### what is a stake holder?
 
+A stakeholder is a person or organization that has rights, shares, claims, or interests concerning the system or its properties meeting their needs and expectations.
+These people thus have reasons to make and/or influence descisions made in a project. These descisions could be about requirements, deadlines and costs.
+
 ### Who are the stakeholders in my project and what are their goals and constraints? 
+
+In the group project we have 3 stakeholders: Frank Schurgers, Meija Lohiniva and Samuil Angelov.
+Their shared goal is to ensure the projects follows the Agile Scrum method and that the international collaboration goes as smooth as possible.
 
 ## Process analysis:
 
 ### What is a business process? 
+
+A business process is a series of activities and descisions done by an organization to generate an output with value.
 
 ### How does a business proces relate to software applications? 
 

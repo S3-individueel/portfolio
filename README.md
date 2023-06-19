@@ -264,6 +264,9 @@ Multiple types of test techniques: You apply user acceptance testing and stakeho
 
 ### Conceptual model
 ![conceptual-model](designs/conceptual-model.jpg)
+This model consists of 2 parts. The right side of 'Citizen' is about the social media part of Volksmond. This means it's about the normal every day social media usage such as posting on your feed and commenting on other people's posts.
+
+The left side is about discussions that arose from the social media platform. Here people can further discuss a certain topic and come up with solutions and vote during a referendum.
 
 ### Database design
 

@@ -271,6 +271,10 @@ Even though I use Entity Framework (code-first) in this project, I still decided
 
 ![conceptual-model](designs/database-ontwerp.jpg)
 
+### C4 model
+
+![c4-model](screenshots/c4.jpg)
+
 ## 7 Bussiness Process
 
 You can explain simple business processes and relate them to the development of your software project.
@@ -301,9 +305,30 @@ Their shared goal is to ensure the projects follows the Agile Scrum method and t
 
 A business process is a series of activities and descisions done by an organization to generate an output with value.
 
+I have visualized two business processes relating to my individual project.
+The first one is the current process needed to make national descisions. It describes the current voting process.
+1. A registered and elligable citizen receives a voting bill in their mail.
+2. The citizen (preferably) researches all the options.
+3. The citizen goes a local voting booth.
+4. The citizen chooses who they deligate their vote to.
+5. The citizen must hope that the citizen they choose follows through on promises.
+
+![businessprocess-old](screenshots/businessprocess-old.jpg)
+
+
+The second diagram is the new process I envision with Volksmond.
+1. A registered and elligable citizen discusses social issues on Volksmond.
+2. After some time a referendum starts.
+3. The citizen can votses for their preffered solution.
+4. If enough people vote for the same solution, it will get sent to the appropriate ministries.
+
+![businessprocess-new](screenshots/businessprocess-new.jpg)
+
 ### How does a business proces relate to software applications? 
 
 ## Requirements analysis:
+
+
 
 ## Ethics analysis:
 
@@ -320,3 +345,5 @@ You develop software as a team effort according to a prescribed software methodo
 You  independently recognize and decide where your knowledge falls short to solve a software problem and  communicate which new knowledge and skills you need to learn.
 
 ### how I plan to show this learning outcome in my project: 
+
+To demonstrate my understanding of this learning objective, I took proactive steps to gather feedback from both my stakeholders and teachers. For our group project, we organized presentations where stakeholders gave us feedback on our work. Afterwards, we had group discussions to carefully examine and address the feedback we received. In my individual project, I actively sought feedback from my teacher. I made sure to document this feedback on FeedPulse, so my teacher could review our discussions and understand how I planned to implement the suggestions. Additionally, in our group project, we wrote reviews for each other, highlighting areas where we could improve and acknowledging our strengths. This approach created a supportive environment where we could all learn from one another.

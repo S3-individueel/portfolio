@@ -273,7 +273,7 @@ Even though I use Entity Framework (code-first) in this project, I still decided
 
 ### C4 model
 
-![c4-model](screenshots/c4.jpg)
+![c4-model](designs/c4.jpg)
 
 ## 7 Bussiness Process
 
@@ -313,7 +313,7 @@ The first one is the current process needed to make national descisions. It desc
 4. The citizen chooses who they deligate their vote to.
 5. The citizen must hope that the citizen they choose follows through on promises.
 
-![businessprocess-old](screenshots/businessprocess-old.jpg)
+![businessprocess-old](designs/businessprocess-old.jpg)
 
 
 The second diagram is the new process I envision with Volksmond.
@@ -322,7 +322,7 @@ The second diagram is the new process I envision with Volksmond.
 3. The citizen can votses for their preffered solution.
 4. If enough people vote for the same solution, it will get sent to the appropriate ministries.
 
-![businessprocess-new](screenshots/businessprocess-new.jpg)
+![businessprocess-new](designs/businessprocess-new.jpg)
 
 ### How does a business proces relate to software applications? 
 

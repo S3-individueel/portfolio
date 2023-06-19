@@ -179,7 +179,16 @@ Agile method: You are aware of most popular agile methods and their underlying a
 
 ### how I plan to show this learning outcome in my project: 
 
+As an Associate Degree student I've been given Scrum as Agile method I must apply to my software development process.
 
+Scrum is an iterative process were you get feedback every sprint and apply it in the next sprint. This makes software development more flexible and adaptable to the stake-holders wishes.
+
+Scrum consists of 5 key elements:
+1. Product backlog: This is a list of user-stories which are prioritized by the stakeholders wants and needs.
+2. Sprint planning: Before the start of every sprint, the developer(s) and the stakeholder(s) prioritize user-stories which ought to be finnished at the end of the sprint.
+3. Daily stand-up: At the start of every (work-)day the team gets together for a meeting. The Scrum-master asks everyone what they plan to do that day and ask if they need help.
+4. Sprint review: At the end of each sprint, the sprint results are presented to the stakeholders. This is important to get feedback to implement in a future sprint.
+5. Sprint Retrospective: The retrospective should happen closely after the sprint review. It's about reflecting on what went well and what went wrong in the development process in the last sprint.
 
 ## 4 CI/CD
 

@@ -235,6 +235,13 @@ Scrum consists of 5 key elements:
 4. Sprint review: At the end of each sprint, the sprint results are presented to the stakeholders. This is important to get feedback to implement in a future sprint.
 5. Sprint Retrospective: The retrospective should happen closely after the sprint review. It's about reflecting on what went well and what went wrong in the development process in the last sprint.
 
+#### Scrum boards evidence
+Backend (https://github.com/orgs/Fontys-OAMK-Beter/projects/2)
+
+Frontend (https://github.com/orgs/Fontys-OAMK-Beter/projects/3/views/1)
+
+Learning to work in Agile has been difficult at first, especially keeping the scrumboard up to date. But after feedback and us as a group reminding eachother everytime, we improved overall and saw that implementing Agile in or development process really improves the organization and teamwork.
+
 ## 4 CI/CD
 
 You implement a (semi)automated software release process that matches the needs of the project context.
@@ -425,14 +432,6 @@ The second diagram is the new process I envision with Volksmond.
 4. If enough people vote for the same solution, it will get sent to the appropriate ministries.
 
 ![businessprocess-new](designs/businessprocess-new.jpg)
-
-### How does a business proces relate to software applications? 
-
-## Requirements analysis:
-
-
-
-## Ethics analysis:
 
 ## 8 Professional
 

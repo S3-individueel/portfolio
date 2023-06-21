@@ -152,6 +152,17 @@ There are multiple ways to test an application. For my project I intent to use U
 Xamara (My girlfriend): She found the design very simplistic and lacking context, but when I told her the concept and explained it a bit she began to understand the UI more. She said the structure makes sense and also figured I used Reddit as an inspiration, especially for the comments. She suggested showing more information in all cards to provide more context for the user.
 
 
+### Frontend tests
+**Objective:** Making sure the frontend renders as expected and that forms work.
+
+For this I have use Jest. The tricky part was forcing Jest to first transform the TypeScript files into readable JavaScript. Also the imports didn't work at first, but had to set isolatedModules in the tsconfig.json to false.
+
+- Verify that the Home Page renders the create citizen form.
+- Verify that the Home Page renders the create solution form.
+- Verify that the Solution Page renders the suggested solution section.
+- Verify that the Referendum Component shows a message when the discussion has no solutions.
+![frontendTest](Screenshots/frontendTest.jpg)
+
 ### Unit tests
 **Objective:** Making sure individual controller functions work as intended.
 - Verify that a user can upvote a reply.
@@ -161,7 +172,7 @@ Xamara (My girlfriend): She found the design very simplistic and lacking context
 
 ### Integration tests
 **Objective:** Making sure that the backend works and connects and interacts with the database.
-I used Postman for this.
+I used Postman for this. When an object is Posted, the api sends the ID back. This ID is used as variable for the other requests.
 
 #### Citizen test scenarios:
 - Verify that a citizen can be created.

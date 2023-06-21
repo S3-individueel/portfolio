@@ -293,7 +293,7 @@ Address one of the standard Programming Ethical Guidelines (e.g., ACM Code of Et
 ### What is culture?
 
 Culture is the ideas, beliefs, values, norms, practices and symbols a society upholds. These factors are reflections of their economic and social structures.
-Usually a society has one dominant culture, but can have many sub-cultures. Especially in today's day and age has culture become more fluid. Globalization, thanks to high-speed transport and the internet, has led many cultural aspects to mix. Yet cultures are still very disctinct, since cultural changes are slow to manifest. This is because cultures are defined by their material and historical conditions, which are hard to change.
+Usually a society has one dominant culture, but can have many sub-cultures. Especially in today's day and age has culture become more fluid. Globalization, thanks to high-speed transport and the internet, has led many cultural aspects to mix. Yet cultures are still **very disctinct**, since cultural changes are slow to manifest. This is because cultures are defined by their material and historical conditions, which are hard to change.
 
 ### what is my culture?
 
@@ -304,6 +304,8 @@ That being said, I've been brought up Limburgisch and some say we're comparative
 Another trait which applies to me is Dutch directness. Obviously there are boundaries, but I'm more inclined to say something weird, unexpected or even a little bit taboo.
 
 One cultural trait we (and I) have as Dutch people is that we need to plan everything. Spontanious visits are foreign to us, even by friends or family. Personally I'd like to see this changed in my life, but late stage capitalism makes this increasingly hard.
+
+Also, according to the Lewis Cultural Model, Dutch people tend to be quite far removed from the Reactive variation. I personally find myself to be quite reactive. I like to listen to and understand context first. I think everything in life is multi-fasceted, which requires broader understanding first. This also creates better harmony and empathy for eachother, which I find very important because it's the basis for good human connection.
 
 
 ### What did you do to improve the group communications with respect to cultural differences?

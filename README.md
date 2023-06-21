@@ -15,7 +15,13 @@
 
 ## Introducation:
 
-This Git repository contains all my projects, documentation and where to find everything
+This Git repository contains all my projects, documentation and where to find everything.
+
+This Git repository contains 2 projects:
+- Volksmond (individual project):
+The current political system has been stagnant and more and more people don't agree with the actions of politicians. Change is needed and with my project I want to make an experimental alternative. Currently we have a representative democracy where citizens can only influence politics by voting for a represantative who makes all the descisions for you. What if you could have direct conversations with people online, come up with solutions and vote for the best one?
+
+- GroopySwoopy (group project): It's sometimes hard to choose a movie to watch, especially with friends. This project solves this by having an app where you can create a group with your friends and swipe movies like in Tinder. When all people match with the same movie, you have a movie to watch!
 
 ## Documentation
 This folder contains all the documentation for my reasearches, designs and choices.
@@ -277,12 +283,12 @@ Address one of the standard Programming Ethical Guidelines (e.g., ACM Code of Et
 
 
 
-## What is culture?
+### What is culture?
 
 Culture is the ideas, beliefs, values, norms, practices and symbols a society upholds. These factors are reflections of their economic and social structures.
 Usually a society has one dominant culture, but can have many sub-cultures. Especially in today's day and age has culture become more fluid. Globalization, thanks to high-speed transport and the internet, has led many cultural aspects to mix. Yet cultures are still very disctinct, since cultural changes are slow to manifest. This is because cultures are defined by their material and historical conditions, which are hard to change.
 
-## what is my culture?
+### what is my culture?
 
 I find defining my own culture to be very hard, since I disagree with a lot within my own society. This has led me to not identify with the place where I was born nor live. I think it's way more important to critically reflect on the culture you've been brought up with and adapt better ideas, beliefs and values.
 
@@ -293,12 +299,57 @@ Another trait which applies to me is Dutch directness. Obviously there are bound
 One cultural trait we (and I) have as Dutch people is that we need to plan everything. Spontanious visits are foreign to us, even by friends or family. Personally I'd like to see this changed in my life, but late stage capitalism makes this increasingly hard.
 
 
-## What did you do to improve the group communications with respect to cultural differences?
+### What did you do to improve the group communications with respect to cultural differences?
 
 In our group project, we've had a few different cultures mixed. We've had to work with students from Finland, who tend to be quite shy at first. Our Dutch directness definitely helped in breaking the ice, even though it was weird for the Finns. This doesn't mean that the Finnish students all suddenly became as direct as us. This made it hard to sometimes know what they actually thought of some descisions and situations.
 
 When we were working on the project I've noticed we as Dutch people can be quite loud sometimes. This could be distracting, ironically mostly to ourselves. To counter this we tried to remind eachother when we were talking too much.
 
+![theLewisModel](graphs/theLewisModel.png)
+This is the Lewis Model, which categorizes the worlds cultures in 3 parts: Multi-active, reactive and linear-active.
+The Netherlands and Finland both are closest to Linear-active. This means we are organized planners, task-oriented and bureaucratic. However, Dutch people are a tiny bit leaning to Multi-active and Finns are somewhat more alligned to the Reactive side, which means they prefer to listen before forming an opinion and speaking. This was very noticable with us as Dutch people were shouting our ideas for the project left and right, where as the Finnish people seemed to prefer to listen first and then respond or add to our ideas.
+
+### Ethics in software engineering
+
+To show I understand the ethics within software engineering, I'll use the Technology Impact Cycle Tool (TICT) with regards to my individual project.
+
+#### Intended solution
+The application should allow all citizens to equally voice their opinions on social issues, suggested solutions and even suggest their own solution. After some time, discussions close and a referendum starts where citizens can vote for their preffered solution.
+This should better represent the wants and needs of society, instead of well-off politicians, who can be detachted from the general public, choosing for them.
+
+#### Possible stakeholders
+Everyone living in the country where this would be implemented would be affected by this, since it's political. This is quite risky, but so is the current political system.
+
+#### Privacy
+Privacy is a huge concern with this application and there are many unanswered questions, like should all citizens remain anonymous on the site for safity, or should names be displayed for accountability. Where, how and how long should all the data be stored? Who has acces to this data? These and more questions should be majorly researched, people should be interviewd and these questions are not mine to answer since it's about the general publics most important aspects of life.
+
+#### Sustainability
+Sustainability-wise it shouldn't be more impactful for the environment than any other application. The servers probaly are the most environmentally taxing in this case.
+
+#### Fairness
+There are also many fairness concerns, like with any political system. In this case it's about minority groups who have contrasting values with the general public and digitally illiterate people.
+In a democracy that uses a majority vote, minorities can often get left out and not listened to. This is why we need to get as close to consensus-democracy as possible without making it impossible to pass new laws. However, this is in the current political system also a problem.
+For digitally illiterate people, there could be help-desks at city halls or call-centres. Even with this help this wouldn't be a perfect solution, since it would still be harder for them to participate than average because getting help takes longer.
+
+#### Data
+See privacy.
+
+#### Human values
+This project plays into the values of equal rights, democracy and political freedom. It gives the power directly into peoples hands. This does however mean that we become more dependant on eachother, instead of elected politicians, which makes the collective bigger. Since the Netherlands is considered more individualistic, this could pose a problem in acceptance of this project.
+
+#### Bad actors
+As said in the fairness section, majority vote can cause problems for minority groups and in bad cases could lead to actual harm. That's why I would want to include more features into this application that requires citing scientific sources when suggesting solutions for a social issue.
+Also hacking would be a huge problem. If there is a vurnability in the application, people can and will exploit it, which for a political system is very bad. There's not much you can do about this except hire a big security team.
+
+#### Transparency
+The question for such projects is if the code should be public or private. If it's public, it can be more trusted, but bugs are easier to find and exploit. If it's private, people must simply trust the developers, but bugs are harder to find and exploit. I don't have a definitive question for this.
+
+#### Future impact
+Utopia: Society maturely discusses social issues on the platform and comes up with well-researched solutions and votes for what is best for society as a whole. If this happens, problems can get fixed faster, society is more reactive and true democracy has been established.
+
+Dystopia: Society gets fragmented because people can't agree. In the worst case, there might be a civil war cause by dissagreements and ideological groups are forming. No issues get resolved, only argues about.
+
+As we can imagine, the stakes for such a project are immensly high. But so is any possible political system. But frankly, these possible futures exist with or without this app. That is not to say that my platform is the definitive solution.
 
 ## 6 Requirements and Design
 

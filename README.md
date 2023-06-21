@@ -368,21 +368,51 @@ Multiple types of test techniques: You apply user acceptance testing and stakeho
 
 ### how I plan to show this learning outcome in my project: 
 
-### Conceptual model
+### Conceptual model (ip)
 ![conceptual-model](designs/conceptual-model.jpg)
 This model consists of 2 parts. The right side of 'Citizen' is about the social media part of Volksmond. This means it's about the normal every day social media usage such as posting on your feed and commenting on other people's posts.
 
 The left side is about discussions that arose from the social media platform. Here people can further discuss a certain topic and come up with solutions and vote during a referendum.
 
-### Database design
+### Database design (ip)
 
 Even though I use Entity Framework (code-first) in this project, I still decided to create a database design. This helped me reverse-engineer how the code should look like to help me visualize.
 
 ![conceptual-model](designs/database-ontwerp.jpg)
 
-### C4 model
+### Database design (gp)
+![groopySwoopyDB](designs/gsDb.png)
+
+### C4 model (ip)
 
 ![c4-model](designs/c4.jpg)
+
+### Individual project designs:
+[See Web Application at top of portfolio](#1-WebApplication)
+
+### Group project designs:
+![groopySwoopyGroups](designs/gsGroups.png)
+![groopySwoopyEvents](designs/gsEvents.png)
+![groopySwoopyProfile](designs/gsProfile.png)
+
+### UX Tests (ip)
+#### When I simply showed the designs:
+- Xamara (My girlfriend): She found the design very simplistic and lacking context, but when I told her the concept and explained it a bit she began to understand the UI more. She said the structure makes sense and also figured I used Reddit as an inspiration, especially for the comments. She suggested showing more information in all cards to provide more context for the user.
+
+#### Usability tests:
+When my frontend is done I'll take 3 groups to test the User-Experience. 2 Software peers who have good knownledge of programming, 2 non-software peers who have little to no programming skills and 2 digitally illiterate people who have (some) trouble navigating the internet. I sit them in front of the computer with the website open on the homepage and give them 5 tasks:
+1. Search for a discussion about global warming.
+2. Leave a like on the most liked comment in a solution.
+3. Reply to the latest comment in a solution.
+4. Find a discussion that has an active referendum and vote for a solution.
+5. Start a new discussion.
+
+These tasks are multi-stepped which leave room for interpretation. This makes for a more realistic test scenario and what users most likely will actually do in the application.
+
+#### Testers:
+- Software peers: Brian, Ruben, Wouter.
+- Non-software: Xamara, my brother.
+- Digitally illiterate: my Mother, my uncle.
 
 ## 7 Bussiness Process
 

@@ -153,21 +153,49 @@ Xamara (My girlfriend): She found the design very simplistic and lacking context
 
 
 ### Unit tests
-**Objective:** Making sure that users can vote and reply on replies.
-RepliesController 
+**Objective:** Making sure individual controller functions work as intended.
 - Verify that a user can upvote a reply.
 - Verify that a user can remove a vote on a reply.
 - Verify that a user can reply on another reply recursively.
 
 
-### Intgration tests
-**Objective:** Making sure that the frontend and backend API communicate as expected.
-Homepage
-- Verify that discussions load.
+### Integration tests
+**Objective:** Making sure that the backend works and connects and interacts with the database.
+I used Postman for this.
 
-Discussion page
-- Verify that all solutions load.
-- Verify that users can vote on a solution only during a referendum.
+#### Citizen test scenarios:
+- Verify that a citizen can be created.
+- Verify that all citizens can be fetched.
+- Verify that a citizen can be fetched by Id.
+- Verify that a citizen can be deleted.
+
+![integrationTestCitizen](Screenshots/integrationTestCitizen.jpg)
+
+
+#### Discussion test scenarios:
+- Verify that a discussion can be created.
+- Verify that all discussions can be fetched.
+- Verify that a discussion can be fetched by Id.
+- Verify that a discussion can be deleted.
+
+![integrationTestDiscussion](Screenshots/integrationTestDiscussion.jpg)
+
+
+#### Solution test scenarios:
+- Verify that a solution can be created.
+- Verify that a solution can be upvoted.
+- Verify that a solution can be downvoted.
+- Verify that a vote can be revoked.
+- Verify that all solutions can be fetched.
+- Verify that a solution can be fetched by Id.
+- Verify that a solution can be deleted.
+
+![integrationTestSolution](Screenshots/integrationTestSolution.jpg)
+
+
+### Code scan
+I've ran my frontend through SolarCloud's code scan for extra software quality control.
+![codescan](Screenshots/codescan.jpg)
 
 ## 3 Agile method
 
